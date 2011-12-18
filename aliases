@@ -1,3 +1,7 @@
+# Bash stuff
+alias ls="ls -G"
+alias grep='grep --color=auto'
+
 # Rails stuff
 alias bi='bundle install --path vendor'
 alias be='bundle exec'

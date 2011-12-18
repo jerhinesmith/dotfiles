@@ -14,12 +14,6 @@ if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
 
-# Add aliases
-alias ls="ls -G"
-alias grep='grep --color=auto'
-alias bake='bundle exec rake'
-alias bails='bundle exec rails'
-
 # Add in the git autocomplete stuff
 # source ~/git-completion.bash
 
