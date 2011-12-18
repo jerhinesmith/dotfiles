@@ -1,0 +1,7 @@
+# Rails stuff
+alias bi='bundle install --path vendor'
+alias be='bundle exec'
+alias bake='bundle exec rake'
+alias bails='bundle exec rails'
+alias cons='bails c'
+alias serv='bails s'
