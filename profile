@@ -22,3 +22,6 @@ fi
 
 # rbenv init
 eval "$(rbenv init -)"
+
+# Some path stuff
+PATH=$PATH:/usr/local/mysql/bin
