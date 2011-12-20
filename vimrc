@@ -2,7 +2,7 @@
 colorscheme wombat
 
 " Turn on syntax highlighting
-sy on
+syntax enable
 
 " Map escape to `;;`
 imap ;; <Esc>
@@ -10,25 +10,17 @@ imap ;; <Esc>
 " Always show numbered lines
 set number
 
-" Shortcut to raipidly toggle `set list`
-nmap <leader>l :set list!<CR>
+"" Whitespace
+set nowrap                        " Don't wrap lines
+set tabstop=2 shiftwidth=2        " Set tabs as 2 spaces
+set expandtab                     " Use spaces instead of tabs
+set backspace=indent,eol,start    " Backspace through everything in insert mode
 
-" Use the same symbols as TextMate for tabstops and EOLs
-" set listchar=tab:▸\,eol:¬
-
-" Control tabbing
-set expandtab
-filetype indent on
-set autoindent
-set tabstop=2
-set shiftwidth=2
-imap <S-Tab> <C-o><<
-
-" Case insensitive search
-set ic
-
-" Highlight search
-set hls
+"" Search
+set hlsearch                      " Highlight matches
+set incsearch                     " Incremental searching
+set ignorecase                    " Searches are case insensitive...
+set smartcase                     " ... unless they contain at least one capital letter
 
 " Don't display warning for hidden buffers
 set hidden
