@@ -1,5 +1,5 @@
 " Set the colorscheme
-" colorscheme blackboard
+colorscheme wombat
 
 " Turn on syntax highlighting
 sy on
