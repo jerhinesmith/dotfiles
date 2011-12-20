@@ -1,3 +1,6 @@
+" Choose no compatibility with legacy vi
+set nocompatible
+
 " Set the colorscheme
 colorscheme wombat
 
