@@ -24,4 +24,4 @@ fi
 eval "$(rbenv init -)"
 
 # Some path stuff
-PATH=$PATH:/usr/local/mysql/bin
+PATH=$PATH:/usr/local/mysql/bin:/Users/jerhinesmith/bin
