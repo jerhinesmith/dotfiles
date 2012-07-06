@@ -15,7 +15,9 @@ set number
 
 "" Whitespace
 set nowrap                        " Don't wrap lines
-set tabstop=2 shiftwidth=2        " Set tabs as 2 spaces
+set tabstop=2                     " Set tabs as 2 spaces
+set softtabstop=2
+set shiftwidth=2 
 set expandtab                     " Use spaces instead of tabs
 set backspace=indent,eol,start    " Backspace through everything in insert mode
 
