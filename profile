@@ -15,4 +15,6 @@ fi
 export REMOTE_TUNNEL=jrhinesmith@tunnel.wonderhill.com:9590 
 
 # Path
-export PATH=/Users/jrhinesmith/bin:$PATH
+userbin=$HOME/bin
+homebrew=/usr/local/bin:/usr/local/sbin
+export PATH=$userbin:$homebrew:$PATH

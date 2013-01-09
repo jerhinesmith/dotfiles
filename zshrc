@@ -49,4 +49,4 @@ compdef ggc=git
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin
+# export PATH=/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin
