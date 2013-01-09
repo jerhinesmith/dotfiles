@@ -1,10 +1,11 @@
 # Bash stuff
-alias ls="ls -alG"
+alias ll="ls -alGh"
 alias grep='grep --color=auto'
 alias ps='ps aux'
 
 # Work stuff
-alias app='cd /Users/jrhinesmith/projects/galactic'
+alias ee='cd /Users/jrhinesmith/projects/galactic'
+alias dd='cd /Users/jrhinesmith/projects/doa'
 alias uns='ssh galactic-staging.colo "ps aux | grep unicorn"'
 
 # Rails stuff
@@ -13,7 +14,9 @@ alias be='bundle exec'
 alias bake='bundle exec rake'
 alias bails='bundle exec rails'
 alias cons='bails c'
-alias serv='bails s'
+alias dcons='be script/console'
+alias serv='app; bake tunnel:start; bails s'
+alias dserv='dd; bake tunnel:start_bg; be script/server'
 
 # For fun
 alias autovlat='find . -name "*.orig" | xargs -I {} git rm {}'
