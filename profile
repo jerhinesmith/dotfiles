@@ -11,6 +11,9 @@ fi
 # RVM stuff
 [[ -s "/Users/jrhinesmith/.rvm/scripts/rvm" ]] && source "/Users/jrhinesmith/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+# rbenv stuff
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # Gateway
 export REMOTE_TUNNEL=jrhinesmith@tunnel.wonderhill.com:9590 
 
