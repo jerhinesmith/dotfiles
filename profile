@@ -21,3 +21,7 @@ export REMOTE_TUNNEL=jrhinesmith@tunnel.wonderhill.com:9590
 userbin=$HOME/bin
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$userbin:$homebrew:$PATH
+
+# Some env variables
+export NODE_PATH=/usr/local/lib/node_modules
+export REDISTOGO_URL=redis://localhost:6379

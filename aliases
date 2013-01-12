@@ -15,8 +15,13 @@ alias bake='bundle exec rake'
 alias bails='bundle exec rails'
 alias cons='bails c'
 alias dcons='be script/console'
-alias serv='app; bake tunnel:start; bails s'
 alias dserv='dd; bake tunnel:start_bg; be script/server'
 
 # For fun
 alias autovlat='find . -name "*.orig" | xargs -I {} git rm {}'
+alias serv='bails s'
+
+# Project stuff
+alias pf='cd ~/projects/product_flow'
+alias ga='cd ~/work/projects/galactic'
+alias coe='cd ~/projects/coe'
