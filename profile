@@ -20,7 +20,8 @@ export REMOTE_TUNNEL=jrhinesmith@tunnel.wonderhill.com:9590
 # Path
 userbin=$HOME/bin
 homebrew=/usr/local/bin:/usr/local/sbin
-export PATH=$userbin:$homebrew:$PATH
+npm=/usr/local/share/npm/bin
+export PATH=$userbin:$homebrew:$npm:$PATH
 
 # Some env variables
 export NODE_PATH=/usr/local/lib/node_modules
