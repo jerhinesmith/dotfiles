@@ -45,6 +45,9 @@ function devdep {
 alias ggc='git push -u origin $(current_branch)'
 compdef ggc=git
 
+alias ggd='git push origin :$(current_branch)'
+compdef ggd=git
+
 # RVM Integration
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
