@@ -25,3 +25,8 @@ alias serv='bails s'
 alias pf='cd ~/projects/product_flow'
 alias ga='cd ~/work/projects/galactic'
 alias coe='cd ~/projects/coe'
+
+# Spotify
+alias ss='spotify'
+alias ssp='ss play'
+alias sspp='ss pause'

@@ -48,6 +48,9 @@ compdef ggc=git
 alias ggd='git push origin :$(current_branch)'
 compdef ggd=git
 
+alias ggrm='git status | grep "deleted" | awk '"'"'{print $3}'"'"' | xargs -I {} git rm {}'
+compdef ggrm=git
+
 # RVM Integration
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
