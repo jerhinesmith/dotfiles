@@ -6,6 +6,7 @@ alias ps='ps aux'
 # Work stuff
 alias ee='cd /Users/jrhinesmith/projects/galactic'
 alias dd='cd /Users/jrhinesmith/projects/doa'
+alias lq='cd /Users/jrhinesmith/projects/lootquest'
 alias uns='ssh galactic-staging.colo "ps aux | grep unicorn"'
 
 # Rails stuff
