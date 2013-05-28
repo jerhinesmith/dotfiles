@@ -26,3 +26,4 @@ export PATH=$userbin:$homebrew:$npm:$PATH
 # Some env variables
 export NODE_PATH=/usr/local/lib/node_modules
 export REDISTOGO_URL=redis://localhost:6379
+export EDITOR=/usr/bin/vim

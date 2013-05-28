@@ -11,6 +11,6 @@
   "bold_folder_labels": true,
   "caret_style": "phase",
   "trim_trailing_white_space_on_save": true,
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "vendor/ruby", "doc/yardoc", "tmp/deploy-cache", "tmp/sass-cache"],
-  "scroll_past_end": true
+  "scroll_past_end": true,
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "doc/yardoc", "tmp/deploy-cache", "tmp/sass-cache"]
 }
