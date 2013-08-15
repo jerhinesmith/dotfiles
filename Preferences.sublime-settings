@@ -8,7 +8,6 @@
     ".git",
     ".hg",
     "CVS",
-    "vendor/ruby",
     "doc/yardoc",
     "tmp/deploy-cache",
     "tmp/sass-cache"
