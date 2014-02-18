@@ -36,23 +36,3 @@ plugins=(git history)
 
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
-
-function devdep {
-  # cap doadev deploy -s branch=fix-armor-use-for -s targets=doadev6.colo
-  bundle exec cap doadev deploy -s branch=$(current_branch) -s targets=doadev$1.colo
-}
-
-alias ggc='git push -u origin $(current_branch)'
-compdef ggc=git
-
-alias ggd='git push origin :$(current_branch)'
-compdef ggd=git
-
-alias ggrm='git status | grep "deleted" | awk '"'"'{print $3}'"'"' | xargs -I {} git rm {}'
-compdef ggrm=git
-
-# RVM Integration
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
-# Customize to your needs...
-# export PATH=/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jrhinesmith/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jrhinesmith/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin:/Users/jrhinesmith/.rvm/bin

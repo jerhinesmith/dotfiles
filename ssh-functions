@@ -21,3 +21,8 @@ function doa {
 function dev {
   ssh doadev$1.colo
 }
+
+function devdep {
+  # cap doadev deploy -s branch=fix-armor-use-for -s targets=doadev6.colo
+  bundle exec cap doadev deploy -s branch=$(current_branch) -s targets=doadev$1.colo
+}
