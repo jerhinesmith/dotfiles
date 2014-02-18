@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+cd ~
+source ~/.zshrc
+upgrade_oh_my_zsh > /dev/null &
+brew update > /dev/null
+brew doctor &
+brew outdated
+wait
+
