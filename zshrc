@@ -32,7 +32,7 @@ export UPDATE_ZSH_DAYS=13
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git history)
+plugins=(git history jump)
 
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
