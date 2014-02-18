@@ -33,10 +33,5 @@ alias sspp='ss pause'
 
 # Git stuff
 alias ggc='git push -u origin $(current_branch)'
-compdef ggc=git
-
 alias ggd='git push origin :$(current_branch)'
-compdef ggd=git
-
 alias ggrm='git status | grep "deleted" | awk '"'"'{print $3}'"'"' | xargs -I {} git rm {}'
-compdef ggrm=git
