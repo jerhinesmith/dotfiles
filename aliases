@@ -34,4 +34,4 @@ alias sspp='ss pause'
 # Git stuff
 alias ggc='git push -u origin $(current_branch)'
 alias ggd='git push origin :$(current_branch)'
-alias ggrm='git status | grep "deleted" | awk '"'"'{print $3}'"'"' | xargs -I {} git rm {}'
+alias ggrm='git status | grep "deleted" | awk '"'"'{print $2}'"'"' | xargs -I {} git rm {}'
