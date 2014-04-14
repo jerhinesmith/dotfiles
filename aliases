@@ -2,12 +2,6 @@
 alias ll="ls -alGh"
 alias grep='grep --color=auto'
 
-# Work stuff
-alias ee='cd /Users/jrhinesmith/projects/galactic'
-alias dd='cd /Users/jrhinesmith/projects/doa'
-alias lq='cd /Users/jrhinesmith/projects/lootquest'
-alias uns='ssh galactic-staging.colo "ps aux | grep unicorn"'
-
 # Rails stuff
 alias bi='bundle install --path vendor'
 alias be='bundle exec'
@@ -15,16 +9,9 @@ alias bake='bundle exec rake'
 alias bails='bundle exec rails'
 alias cons='bails c'
 alias serv='bails s'
-alias dcons='be script/console'
-alias dserv='dd; bake tunnel:start_bg; be script/server'
 
 # For fun
 alias autovlat='find . -name "*.orig" | xargs -I {} git rm {}'
-
-# Project stuff
-alias pf='cd ~/projects/product_flow'
-alias ga='cd ~/work/projects/galactic'
-alias coe='cd ~/projects/coe'
 
 # Spotify
 alias ss='spotify'
@@ -35,3 +22,6 @@ alias sspp='ss pause'
 alias ggc='git push -u origin $(current_branch)'
 alias ggd='git push origin :$(current_branch)'
 alias ggrm='git status | grep "deleted" | awk '"'"'{print $2}'"'"' | xargs -I {} git rm {}'
+
+# Jump up, jump up, and get down
+alias j='jump'
