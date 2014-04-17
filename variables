@@ -5,7 +5,7 @@
 userbin=$HOME/bin
 homebrew=/usr/local/bin:/usr/local/sbin
 npm=/usr/local/share/npm/bin
-android=$HOME/android/current/sdk/tools
+android=$HOME/android/current/sdk/tools:$HOME/android/current/sdk/platform-tools
 export PATH=$userbin:$homebrew:$npm:$android:$PATH
 
 # Some env variables

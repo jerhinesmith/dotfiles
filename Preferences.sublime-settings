@@ -10,7 +10,9 @@
     "CVS",
     "doc/yardoc",
     "tmp/deploy-cache",
-    "tmp/sass-cache"
+    "tmp/sass-cache",
+    "tmp/cache/assets",
+    "tmp/cache/sass"
   ],
   "font": "Inconsolata",
   "font_size": 15.0,
