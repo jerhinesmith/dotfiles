@@ -5,10 +5,10 @@ alias grep='grep --color=auto'
 # Rails stuff
 alias bi='bundle install --path vendor'
 alias be='bundle exec'
-alias bake='bundle exec rake'
-alias bails='bundle exec rails'
-alias cons='bails c'
-alias serv='bails s'
+alias bake='bin/rake'
+alias bails='bin/rails'
+alias cons='bin/rails c'
+alias serv='bin/rails s'
 
 # For fun
 alias autovlat='find . -name "*.orig" | xargs -I {} git rm {}'
