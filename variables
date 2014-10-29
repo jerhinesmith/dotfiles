@@ -5,7 +5,11 @@ npm=/usr/local/share/npm/bin
 android=$HOME/android/current/sdk/tools:$HOME/android/current/sdk/platform-tools
 export PATH=$userbin:$homebrew:$npm:$android:$PATH
 
+# Fucking java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home"
+
 # Some env variables
 export NODE_PATH=/usr/local/lib/node_modules
 export REDISTOGO_URL=redis://localhost:6379
 export EDITOR=/usr/bin/vim
+

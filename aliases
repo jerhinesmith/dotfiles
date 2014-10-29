@@ -25,3 +25,11 @@ alias ggrm='git status | grep "deleted" | awk '"'"'{print $2}'"'"' | xargs -I {}
 
 # Jump up, jump up, and get down
 alias j='jump'
+
+# Pow
+alias rr='touch tmp/restart.txt'
+alias taillog='tail -f log/development.log'
+
+# Heroku
+alias hgrep='history | grep -v grep | grep heroku | grep'
+
