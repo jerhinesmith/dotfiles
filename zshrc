@@ -36,3 +36,6 @@ plugins=(git history jump git-flow)
 
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
