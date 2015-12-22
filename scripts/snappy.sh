@@ -10,8 +10,8 @@ ENTRIES_PER_ROW=4
 
 mkdir -p "$DIR"
 
-imagesnap "$ORIGINAL"
-convert "$ORIGINAL" -resize 300x300 "$WEB"
+/usr/local/bin/imagesnap "$ORIGINAL"
+/usr/local/bin/convert "$ORIGINAL" -resize 300x300 "$WEB"
 
 TOTAL_COUNT=$(find "$DIR" -name "*.jpg" -prune -print | grep -c /)
 TOTAL_ROWS=$(( ($TOTAL_COUNT / $ENTRIES_PER_ROW) + 1 ))
@@ -19,8 +19,6 @@ TOTAL_ROWS=$(( ($TOTAL_COUNT / $ENTRIES_PER_ROW) + 1 ))
 IMG_TAGS=""
 
 cd "$DIR" && for f in `ls -t *.jpg | head -12` ; do IMG_TAGS="$IMG_TAGS <div class=\"col-md-3 col-sm-6 col-xs-12\"><a href=\"${f/jpg/png}\" target=_blank><img src=\"$f\" class=\"img-responsive\"></a></div>" ; done
-
-echo $IMG_TAGS
 
 HTML="<!DOCTYPE html>
 <html lang=\"en\">
