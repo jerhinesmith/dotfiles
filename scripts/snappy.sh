@@ -18,7 +18,7 @@ TOTAL_ROWS=$(( ($TOTAL_COUNT / $ENTRIES_PER_ROW) + 1 ))
 
 IMG_TAGS=""
 
-cd "$DIR" && for f in `ls -t *.jpg | head -12` ; do IMG_TAGS="$IMG_TAGS <div class=\"col-md-3 col-sm-6 col-xs-12\"><a href=\"${f/jpg/png}\" target=_blank><img src=\"$f\" class=\"img-responsive\"></a></div>" ; done
+cd "$DIR" && for f in `ls -t *.jpg | head -96` ; do IMG_TAGS="$IMG_TAGS <div class=\"col-md-3 col-sm-6 col-xs-12\"><a href=\"${f/jpg/png}\" target=_blank><img src=\"$f\" class=\"img-responsive\"></a></div>" ; done
 
 HTML="<!DOCTYPE html>
 <html lang=\"en\">
