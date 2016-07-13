@@ -42,3 +42,6 @@ HTML="<!DOCTYPE html>
 </html>"
 
 echo $HTML > "$INDEX_PATH"
+
+# Cleanup
+find $HOME/Dropbox/Public/snappy -regex '.*[jp][pn]g$' -mtime +3 -delete
