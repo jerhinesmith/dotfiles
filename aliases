@@ -31,5 +31,5 @@ alias rr='touch tmp/restart.txt'
 alias taillog='tail -f log/development.log'
 
 # Heroku
-alias hgrep='history | grep -v grep | grep heroku | grep'
+alias hgrep='history | grep -v grep | egrep -o "heroku\s.+$" | sort | uniq | grep'
 
