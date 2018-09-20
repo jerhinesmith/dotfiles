@@ -5,7 +5,7 @@ heroku=/usr/local/heroku/bin
 export PATH=$userbin:$homebrew:$heroku:$PATH
 
 # Fucking java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"
 
 # Some env variables
 export REDISTOGO_URL=redis://localhost:6379
