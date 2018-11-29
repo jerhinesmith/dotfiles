@@ -1,0 +1,21 @@
+{
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "workbench.statusBar.feedback.visible": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontSize": 14,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/coverage": true,
+        "**/log": true,
+        "**/tmp": true,
+        "**/vendor/ruby": true
+    }
+}
