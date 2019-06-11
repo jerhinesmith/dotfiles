@@ -1,0 +1,3 @@
+15   9 * * * date >> ~/.cron/log/s2d.log && /Users/justin/scripts/empty_safe_to_delete.sh >> ~/.cron/log/s2d.log 2>&1
+# */10 * * * * date >> ~/.cron/log/earth_bg.log && cd /Users/justin/projects/earth_bg && ruby refresh_wallpaper.rb >> ~/.cron/log/earth_bg.log 2>&1
+
