@@ -11,6 +11,3 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Ho
 export REDISTOGO_URL=redis://localhost:6379
 export EDITOR=/usr/bin/vim
 
-# NVM Stuff
-export NVM_DIR="$HOME/.nvm"
-. "$(brew --prefix nvm)/nvm.sh"
