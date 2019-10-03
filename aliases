@@ -34,3 +34,5 @@ alias taillog='tail -f log/development.log'
 # alias hgrep='history | grep -v grep | egrep -o "heroku\s.+$" | sort | uniq | grep'
 alias hgrep='history | grep -v grep | egrep -o "heroku\s.+$" | sort | uniq -c | sort -n | egrep -o "heroku\s.+$" | grep'
 
+# Square
+alias ci='kochiku'
