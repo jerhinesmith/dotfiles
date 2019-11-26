@@ -1,3 +1,8 @@
+# Local Profile (Private/Work)
+if [ -f ~/.profile.local ]; then
+  . ~/.profile.local
+fi
+
 # Variables
 if [ -f ~/.variables ]; then
   . ~/.variables
