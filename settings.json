@@ -80,5 +80,6 @@
     },
     "ruby.format": "rubocop", // use rubocop for formatting
     "ruby.codeCompletion": "rcodetools",
-    "ruby.intellisense": "rubyLocate"
+    "ruby.intellisense": "rubyLocate",
+    "diffEditor.renderSideBySide": true
 }
