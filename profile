@@ -1,8 +1,3 @@
-# Local Profile (Private/Work)
-if [ -f ~/.profile.local ]; then
-  . ~/.profile.local
-fi
-
 # Variables
 if [ -f ~/.variables ]; then
   . ~/.variables
@@ -18,10 +13,14 @@ if [ -f ~/.ssh-functions ]; then
   . ~/.ssh-functions
 fi
 
+# Local Profile Overrides (Private/Work)
+if [ -f ~/.profile.local ]; then
+  . ~/.profile.local
+fi
+
 # rbenv stuff
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 if [ -f '.ruby-version' ]; then cd .; fi
-

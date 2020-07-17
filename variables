@@ -10,8 +10,3 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.0.1.jdk/Cont
 # Some env variables
 export REDISTOGO_URL=redis://localhost:6379
 export EDITOR=/usr/bin/vim
-
-# Square AWS
-export EC2_ACCOUNT_ID=611855325840
-export EC2_ROLE=engineer
-
