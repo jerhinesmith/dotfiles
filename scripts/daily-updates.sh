@@ -5,7 +5,7 @@ function check_for_appstore_updates {
 }
 
 source $HOME/.zshrc
-upgrade_oh_my_zsh > /dev/null &
+omz update > /dev/null &
 brew update > /dev/null
 brew doctor &
 brew outdated
