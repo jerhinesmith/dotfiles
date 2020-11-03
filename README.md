@@ -64,6 +64,7 @@ ln -s /Users/justin/Projects/dotfiles/profile .profile
 ln -s /Users/justin/Projects/dotfiles/variables .variables
 mv .zshrc .zshrc.old
 ln -s /Users/justin/Projects/dotfiles/zshrc .zshrc
+ln -s /Users/justin/Projects/dotfiles/vim .vim
 ln -s /Users/justin/Projects/dotfiles/vimrc .vimrc
 ln -s /Users/justin/Projects/dotfiles/settings.json /Users/justin/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/justin/Projects/dotfiles/dirty-rhino.zsh-theme .oh-my-zsh/themes/dirty-rhino.zsh-theme
