@@ -4,9 +4,6 @@ homebrew=/usr/local/bin:/usr/local/sbin
 heroku=/usr/local/heroku/bin
 export PATH=$userbin:$homebrew:$heroku:$PATH
 
-# Fucking java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.0.1.jdk/Contents/Home"
-
 # Some env variables
 export REDISTOGO_URL=redis://localhost:6379
 export EDITOR=/usr/bin/vim
