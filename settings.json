@@ -4,6 +4,7 @@
     "editor.tabSize": 2,
     "editor.fontFamily": "Inconsolata",
     "editor.fontSize": 14,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.trimTrailingWhitespace": true,
     "search.exclude": {
         "**/coverage": true,
@@ -34,6 +35,9 @@
     "[plaintext]": {
         "editor.wordWrap": "on"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "workbench.editor.untitled.hint": "hidden",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -44,5 +48,6 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "editor.formatOnSave": true
 }
