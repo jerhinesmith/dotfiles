@@ -36,3 +36,7 @@ alias hgrep='history | grep -v grep | egrep -o "heroku\s.+$" | sort | uniq -c | 
 
 # Square
 alias ci='kochiku'
+
+# DoorDash
+alias devbox='dd-toolbox devbox'
+

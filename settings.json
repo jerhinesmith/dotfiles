@@ -1,53 +1,54 @@
 {
-    "workbench.statusBar.feedback.visible": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.tabSize": 2,
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontSize": 14,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.trimTrailingWhitespace": true,
-    "search.exclude": {
-        "**/coverage": true,
-        "**/log": true,
-        "**/tmp": true,
-        "**/vendor/ruby": true
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 0,
-    "ruby.useBundler": true, //run non-lint commands with bundle exec
-    "ruby.useLanguageServer": true, // use the internal language server (see below)
-    "ruby.lint": {
-        "rubocop": {
-            "useBundler": true // enable rubocop via bundler
-        }
-        // "reek": {
-        //     "useBundler": true // enable reek via bundler
-        // }
-    },
-    "ruby.format": "rubocop", // use rubocop for formatting
-    "ruby.codeCompletion": "rcodetools",
-    "ruby.intellisense": "rubyLocate",
-    "diffEditor.renderSideBySide": true,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "[plaintext]": {
-        "editor.wordWrap": "on"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.editor.untitled.hint": "hidden",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "security.workspace.trust.untrustedFiles": "open",
-    "redhat.telemetry.enabled": true,
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "editor.formatOnSave": true
+  "workbench.statusBar.feedback.visible": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Inconsolata",
+  "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "**/coverage": true,
+    "**/log": true,
+    "**/tmp": true,
+    "**/vendor/ruby": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.fontSize": 16,
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true // enable rubocop via bundler
+    }
+    // "reek": {
+    //     "useBundler": true // enable reek via bundler
+    // }
+  },
+  "ruby.format": "rubocop", // use rubocop for formatting
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.intellisense": "rubyLocate",
+  "diffEditor.renderSideBySide": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[plaintext]": {
+    "editor.wordWrap": "on"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  }
 }
