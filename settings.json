@@ -50,5 +50,8 @@
   },
   "[python]": {
     "editor.formatOnType": true
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
   }
 }
