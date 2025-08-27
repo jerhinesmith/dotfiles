@@ -1,9 +1,20 @@
 # Path
 userbin=$HOME/bin
-homebrew=/usr/local/bin:/usr/local/sbin
-heroku=/usr/local/heroku/bin
-export PATH=$userbin:$homebrew:$heroku:$PATH
+homebrew=/opt/homebrew/bin:/opt/homebrew/sbin
+libpq=/opt/homebrew/opt/libpq/bin
+pipx=$HOME/.local/bin
+export PATH=$JAVA_HOME:$userbin:$homebrew:$libpq:$pipx:$PATH
 
 # Some env variables
 export REDISTOGO_URL=redis://localhost:6379
 export EDITOR=/usr/bin/vim
+
+# Weird ruby bug
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+# Sentry integration
+SENTRY_AUTH_TOKEN=228d360e0dc95fa2a3d3b577435a902eb4b4cb764d33e90bad9ad420012931e7
+
+# Fixes gpg issue
+export GPG_TTY=$(tty)
+
